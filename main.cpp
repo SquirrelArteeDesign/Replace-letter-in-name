@@ -26,7 +26,7 @@ int main()
 	cout << "Por qual letra deseja trocar ? ";
 	cin >> *pReplace;
 	
-	for(i = 0; i < sizeof(nome)/sizeof(int); i++){
+	for(i = 0; i < strlen(nome); i++){
 		if(tolower(nome[i]) == tolower(*pFind)){
 			nome[i] = *pReplace;
 		}
