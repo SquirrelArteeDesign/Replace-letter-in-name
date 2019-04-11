@@ -34,6 +34,7 @@ int main()
 	
 	cout << nome << endl;
 	
+	// Desalocando
 	delete[] pFind;
 	pFind = NULL;
 	delete[] pReplace;
